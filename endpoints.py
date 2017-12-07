@@ -11,7 +11,7 @@ def root():
 
 @api.route('/health')
 def health():
-    return jsonify([{'hello health': 985, 'hello health2': 654}]), 200
+    return jsonify([{'hello health': 985}, {'hello health2': 654}]), 200
 
 
 @api.route('/telemetry')
